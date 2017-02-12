@@ -45,3 +45,7 @@ th, td {
     text-align: center;
     vertical-align: middle;
 }
+
+.black-text {
+    color: black !important;
+}

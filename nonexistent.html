@@ -7,6 +7,7 @@
         <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/button.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/upload.css" rel="stylesheet" type="text/css" />
+
         <meta name="google-signin-client_id" content="59838547405-30l0ud7tksemb0g51fvngseaj55nkgpg.apps.googleusercontent.com">
 
 
@@ -39,22 +40,22 @@
             </div>
         </div>
         
+        
         <!--   Content   -->
-        <div class="container">
 
-        <div class="custom-file-upload center">
-            <!--<label for="file">File: </label>--> 
-            <input class="center" type="file" id="file" name="myfiles[]" multiple />
-        </div>
-        <br><br><br> <br><br><br>
-           <a onclick="login()" href="updatecontacts.html">
+
+            <div id="status center">
+                <!--<div class="g-signin2" data-onsuccess="onSignIn"></div>-->
+
+                <a onclick="login()" href="upload.html">
                     <button class="btn red" type="button">
                             <span>
-                                Continue <i class="fa fa-arrow-circle-right fa-lg" aria-hidden="true"></i> 
+                                <i class="fa fa-google fa-lg" aria-hidden="true"></i> Login with Google
                             </span>
                     </button>
                 </a>
-        </div>
+            </div>   
+
         
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

@@ -40,42 +40,84 @@
         </div>
         
         <!--   Content   -->
-        <div class="container">
 
-            <!--<div class="g-signin2" data-onsuccess="onSignIn"></div>-->
-            
-            <div class="row"><br></div><br><br>
-            <div class="row">
-                <a onclick="login()" href="upload.html">
-                <button class="btn red" type="button">
-                        <span>
-                            <i class="fa fa-google fa-lg" aria-hidden="true"></i> Login with Google
-                        </span>
-                </button>
-                </a>
-            </div>
-            
-            <div class="row">
-                <div class="custom-file-upload center">
-                    <!--<label for="file">File: </label>--> 
-                    <input class="center" type="file" id="file" name="myfiles[]" multiple />
-                </div>
-            </div>
-            
-            <div class="row">
-  
-        
-        <br><br><br> <br><br>
-           <a onclick="login()" href="updatecontacts.html">
-                    <button class="btn red" type="button">
-                            <span>
-                                Continue <i class="fa fa-arrow-circle-right fa-lg" aria-hidden="true"></i> 
-                            </span>
-                    </button>
-                </a>
-                </div>
-            
-            
+
+        <div class="container">
+            <table class="table table-bordered">
+              <thead class="thead-inverse">
+                <tr>
+                  <th scope="row">#</th>
+                  <th>Picture</th>
+                  <th>Name</th>
+                  <th>Number</th>
+                  <th></th>
+                </tr>
+
+                <tr>
+                  <th scope="row">1</th>
+                  <td>
+                      <img class="img-circle" src="https://placehold.it/100x100"></img>  
+                  </td>
+                  <td>
+                      <span class="name"><br><br>        
+                          Hilarious Name
+                      </span>
+                  </td>
+                  <td>
+                      <span class="number"><br><br>        
+                          555-4310
+                      </span>
+                  </td>
+                  <td>
+                      <a href="#" style="height: 50px;line-height: 50px;vertical-align: middle;" onclick="confirm('jonathan-hightower')" class="btn">Confirm</a>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <th scope="row">1</th>
+                  <td>
+                      <img class="img-circle" src="https://placehold.it/100x100"></img>  
+                  </td>
+                  <td>
+                      <span class="name"><br><br>        
+                          Hilarious Name
+                      </span>
+                  </td>
+                  <td>
+                      <span class="number"><br><br>        
+                          555-4310
+                      </span>
+                  </td>
+                  <td>
+                      <a href="#" style="height: 50px;line-height: 50px;vertical-align: middle;" onclick="confirmContact('jonathan-hightower')" class="btn">Confirm</a>
+                </td>
+                </tr>
+    
+    <tr>
+                  <th scope="row">1</th>
+                  <td>
+                      <img class="img-circle" src="https://placehold.it/100x100"></img>  
+                  </td>
+                  <td>
+                      <span class="name"><br><br>        
+                          Hilarious Name
+                      </span>
+                  </td>
+                  <td>
+                      <span class="number"><br><br>        
+                          555-4310
+                      </span>
+                  </td>
+                  <td>
+                      <a href="#" style="height: 50px;line-height: 50px;vertical-align: middle;" onclick="confirm('jonathan-hightower')" class="btn">Confirm</a>
+                </td>
+                </tr>
+              </thead>
+            </table>
+    <a href="details.html" style="height: 50px;line-height: 50px;vertical-align: middle;" onclick="done()" class="btn">Next 
+</a>
+
+
         </div>
         
     </body>
